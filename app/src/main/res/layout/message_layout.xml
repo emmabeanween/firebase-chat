@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="430dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/AliceBlue"
+        >
+
+        <TextView
+            android:id="@+id/username_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:layout_marginLeft="330dp"
+            android:id="@+id/time_text_view"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/content_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
